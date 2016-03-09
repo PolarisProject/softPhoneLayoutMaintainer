@@ -1,6 +1,6 @@
 # softPhoneLayoutMaintainer
 
-    > getLayout sfdc_config.yaml
+    > ruby getLayout.rb sfdc_config.yaml
 
 Outputs the current SoftPhone Layout to stdout in JSON format, assuming that `sfdc_config.yaml` is a YAML file like: 
 
